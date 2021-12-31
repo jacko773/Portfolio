@@ -1,0 +1,64 @@
+@media screen and (max-width: 992px) {
+  .home{
+    height: 100vh;
+    text-align: center;
+    opacity: 0.9 !important;
+    background-image:url('../src/static/images/portfolio-xs.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .About_keyPoints{
+    margin-top: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home{
+    height: 100vh;
+    text-align: center;
+    opacity: 1 !important;
+    background-image:url('../src/static/images/portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .About_keyPoints{
+    margin-top: 100px;
+  }
+}
+.App{
+  font-style: italic;
+}
+.material-icons{
+  display: inline-flex;
+  vertical-align: top;
+}
+.padding_top{
+  padding-top : 10
+}
+.margin_top{
+  margin-top: 10px !important;
+}
+.MuiStepLabel-root {
+  display: flex;
+  align-items: inherit !important;
+}
+.resume_icon{
+  color: blue;
+}
+@media screen and (max-width: 992px) {
+.under_line_text{
+  text-decoration: underline;
+  color: rgb(114, 53, 3);
+  font-weight: bolder;
+}
+}
+@media screen and (min-width: 992px) {
+.under_line_text{
+  text-decoration: underline;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+.subQuote{
+  color: whitesmoke;
+}
+}
